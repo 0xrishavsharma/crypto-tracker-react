@@ -1,7 +1,18 @@
 .App {
   text-align: center;
 }
-
-.App-header {
+.App .App-header {
   color: white;
+}
+.App .coin-search {
+  margin-bottom: 3rem;
+}
+.App form input {
+  outline: none;
+  padding: 0.6rem 5rem;
+  background-color: #3d4149;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  border: none;
+  border-radius: 5px;
 }

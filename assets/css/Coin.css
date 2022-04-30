@@ -1,0 +1,44 @@
+.coin-wrapper {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.coin-wrapper .coin-row {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(89, 89, 89);
+  width: 80%;
+}
+.coin-wrapper .coin {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: start;
+  column-gap: 2rem;
+  width: 300px;
+}
+.coin-wrapper .coin img {
+  width: 30px;
+  height: 30px;
+}
+.coin-wrapper .coin h1 {
+  font-size: 1rem;
+}
+.coin-wrapper .coin-data {
+  display: flex;
+  column-gap: 2rem;
+}
+.coin-wrapper .priceChange {
+  margin-left: 32px;
+}
+.coin-wrapper .coin-marketcap {
+  display: flex;
+  margin-left: 32px;
+  justify-items: end;
+}
+.coin-wrapper .red {
+  color: red;
+}
+.coin-wrapper .green {
+  color: green;
+}
